@@ -3,6 +3,7 @@ import Navbar from "~/components/Navbar";
 // import FileUploader from "~/components/FileUploader";
 import {usePuterStore} from "~/lib/puter";
 import {useNavigate} from "react-router";
+import FileUploader from '~/components/FileUploader';
 // import {convertPdfToImage} from "~/lib/pdf2img";
 // import {generateUUID} from "~/lib/utils";
 // import {prepareInstructions} from "../../constants";
@@ -14,9 +15,9 @@ const Upload = () => {
     const [statusText, setStatusText] = useState('');
     const [file, setFile] = useState<File | null>(null);
 
-    // const handleFileSelect = (file: File | null) => {
-    //     setFile(file)
-    // }
+    const handleFileSelect = (file: File | null) => {
+        setFile(file)
+    }
 
     // const handleAnalyze = async ({ companyName, jobTitle, jobDescription, file }: { companyName: string, jobTitle: string, jobDescription: string, file: File  }) => {
     //     setIsProcessing(true);
@@ -112,7 +113,7 @@ const Upload = () => {
 
                             <div className="form-div">
                                 <label htmlFor="uploader">Upload Resume</label>
-                                {/* <FileUploader onFileSelect={handleFileSelect} /> */}
+                                <FileUploader onFileSelect={handleFileSelect} />
                             </div>
 
                             <button className="primary-button" type="submit">
