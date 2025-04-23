@@ -249,7 +249,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. We love se
 [![Discord](https://img.shields.io/badge/Discord-50k%2B%20Members-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/)
 [![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-181717?style=flat-square&logo=github)](https://github.com/adrianhajdin/ai-resume-analyzer/issues)
 
-> 💬 **Need Help?** Join our Discord community with over 50k+ members where people help each other out!
 
 ---
 
