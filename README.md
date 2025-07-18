@@ -24,7 +24,6 @@ Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Impl
 - ✅ **Modern UI/UX** - Beautiful, responsive interface
 - ✅ **Zero Backend Setup** - Everything runs in the browser
 
-> 💡 **Pro Tip:** If you're getting started and need assistance or face any bugs, join our active Discord community with over 50k+ members. It's a place where people help each other out.
 
 ## ⚙️ Tech Stack
 
