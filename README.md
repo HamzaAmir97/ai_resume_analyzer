@@ -143,7 +143,7 @@ Make sure you have the following installed on your machine:
 
 #### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
+git clone https://github.com/HamzaAmir97/ai_resume_analyzer
 cd ai-resume-analyzer
 ```
 
